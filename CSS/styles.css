@@ -2,39 +2,39 @@
 body {
    background: linear-gradient(#719fb0, #a0c1b8)no-repeat;
    background-size: cover;
-   background-attachment: fixed;
+   /* background-attachment: fixed;  */
+  }
+
+.text-center {
+    margin-top: 40px;
 }
+
 .my-image{
-   width: 250px;
-   height: 250px;
-   display: flex;
-   border-style: ridge;
-   border-width: 10px;
-   margin: 50px 370px;
-   background: cornflowerblue;
    
-  
+   display: grid;
+   margin: 50px 420px;
+   
 }
+
+@media screen and (max-width: 300px) {
+    div.my-image {
+      display: none;
+    }
+  }
 .move{
    text-align: center;
 }
-h1 {
-    font-size: 25px;
-    font-weight: 100px;
-    color: rgb(32, 13, 77);
-    border: 5px solid white;
-    border-radius: 8px;
-    padding: 20px;
-    background: #2978b5;
 
-    
-    
-   
+h1 {
+    color: #fff;
+    margin-top: 3em;
 }
+
 h2 {
-    border-top-right-radius: 200px;
+    
     color: rgb(56, 45, 45);
 }
+
 h6 {
     margin-left: 10%;
     margin-top: 1%;
@@ -45,48 +45,32 @@ h6 {
     color: cornsilk;
     
  }
-.ban-thai-pic {
-    border-radius: 50%;
-    border: solid;
-    width: 25%;
-    
-}
-.avedafi-pic {
-    border-radius: 50%;
-    border: solid;
-    width: 25%;
 
-}
 .last-section {
     padding-top: 50px;
-    margin: 25px 20px;
-}
-.occupations {
-    font-size: 20px;
-}
-a:hover {
-    color:magenta;
+    margin: 25px 600px; 
+    font-size: 40px;
+    
 }
 
-u:hover{
-    color:magenta
-}
+
 
 @media (max-width: 305px) {
-   h1, h2 {
+   h1, h2, h6, p {
       text-align: center;
         
     }
-    img{
+
+    img {
         margin-left: 100px;
     }
 
 } 
 
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     body {
         background-color: rgb(8, 8, 4);
         color: #fff;
     }
-}  */
+} 
 
